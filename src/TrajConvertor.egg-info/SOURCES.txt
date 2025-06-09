@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/TrajConvertor/GeolifeConvertor.py
+src/TrajConvertor.egg-info/PKG-INFO
+src/TrajConvertor.egg-info/SOURCES.txt
+src/TrajConvertor.egg-info/dependency_links.txt
+src/TrajConvertor.egg-info/top_level.txt

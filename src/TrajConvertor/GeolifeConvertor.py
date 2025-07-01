@@ -30,8 +30,8 @@ def GeolifeConvert(src,des):
     tn=len(files)  # total number for progress bar
 
     for fname in files:
-        srcfn=src+"\\"+fname
-        desfn=des+"\\T_"+str(cnt)+".csv"
+        srcfn=src+"/"+fname
+        desfn=des+"/T_"+str(cnt)+".csv"
         PLTtoCSV(srcfn,desfn)
 
         # progress bar

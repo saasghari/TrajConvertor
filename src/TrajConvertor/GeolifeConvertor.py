@@ -31,7 +31,9 @@ def GeolifeConvert(src,des):
 
     for fname in files:
         srcfn=src+"/"+fname
-        desfn=des+"/T_"+str(cnt)+".csv"
+        sp1=str(fname).split('.')
+        sp2=sp1[0].split('_')
+        desfn=des+"/T_"+sp2[1]+".csv"
         PLTtoCSV(srcfn,desfn)
 
         # progress bar

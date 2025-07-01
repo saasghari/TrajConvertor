@@ -36,9 +36,12 @@ def GeolifeConvert(src,des):
 
         # progress bar
         p=int(cnt*100/tn)
+        print("\r", end="")
         print("progress...",end=" ")
-        print('\033[92m'+str(p)+"%"+'\033[0m', end="\r")
+        print('\033[92m'+str(p)+"%"+'\033[0m', end="")
         cnt=cnt+1
     # progress bar
+    print("\r", end="")
     print("progress...",end=" ")
-    print('\033[92m'+"100%"+'\033[0m', end="\r")
+    print('\033[92m'+"100%"+'\033[0m', end="")
+    print('\033[93m'+"     completed"+'\033[0m')
